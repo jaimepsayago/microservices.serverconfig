@@ -7,7 +7,7 @@ eureka:
     statusPageUrlPath: /infoCatalogo
     healthCheckUrlPath: /healthCatalogo
     metadataMap:
-      appOwner: valderasroldan
+      appOwner: JaimeSayago
       description: aplicación ejemplo microservicios
 
 # HTTP Server
