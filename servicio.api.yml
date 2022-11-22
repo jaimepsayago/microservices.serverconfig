@@ -6,9 +6,5 @@ eureka:
 
 # HTTP Server
 server:
-  port: ${PORT:9191}   # HTTP (Tomcat) port
-  
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://localhost:7777/user
+  port: ${PORT:3333}   # HTTP (Tomcat) port
+
