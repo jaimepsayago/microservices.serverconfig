@@ -1,0 +1,14 @@
+# Discovery Server Access JSH
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2222/eureka
+
+# HTTP Server
+server:
+  port: ${PORT:9191}   # HTTP (Tomcat) port
+  
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:7777/user
