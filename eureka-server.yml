@@ -1,9 +1,9 @@
 server:
-<<<<<<< HEAD
+
   port: 4444
-=======
-  port: 8761
->>>>>>> branch 'main' of https://github.com/jaimepsayago/microservices.serverconfig
+
+#  port: 8761
+
 
 eureka:
  client:
