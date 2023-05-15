@@ -1,7 +1,11 @@
 server:
+<<<<<<< HEAD
   port: 4444
+=======
+  port: 8761
+>>>>>>> branch 'main' of https://github.com/jaimepsayago/microservices.serverconfig
 
 eureka:
-  client:
-    fetch-registry: false
-    register-with-eureka: false
+ client:
+   fetch-registry: false
+   register-with-eureka: false
