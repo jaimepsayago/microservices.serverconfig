@@ -9,8 +9,8 @@ eureka:
 server:
  port: 8090   # HTTP (Tomcat) port
 instance:
-    statusPageUrlPath: /infoCatalogo
-    healthCheckUrlPath: /healthCatalogo
+    statusPageUrlPath: /infoApi
+    healthCheckUrlPath: /healthApi
     metadataMap:
       appOwner: jaimepsayago
       description: aplicación ejemplo microservicios
