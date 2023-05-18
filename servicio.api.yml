@@ -7,7 +7,7 @@ eureka:
 
 ## HTTP Server
 server:
- port: 8090   # HTTP (Tomcat) port
+ port: ${PORT:8090}  # HTTP (Tomcat) port
 instance:
     statusPageUrlPath: /infoApi
     healthCheckUrlPath: /healthApi
