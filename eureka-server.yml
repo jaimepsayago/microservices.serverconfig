@@ -6,6 +6,6 @@ eureka:
    fetch-registry: false
    register-with-eureka: false
    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://laptop-ursgme2r:8761/eureka
    server:
     waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
