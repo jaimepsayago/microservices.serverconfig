@@ -6,8 +6,8 @@ eureka:
 
 
 ## HTTP Server
-#server:
-#  port: ${PORT:9191}   # HTTP (Tomcat) port
-
 server:
-  port: 1111
+ port: ${PORT:8090}   # HTTP (Tomcat) port
+#
+#server:
+#  port: 8090
